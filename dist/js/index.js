@@ -15,6 +15,7 @@ function bindClick(){
         root.render(songList[index]);
         root.processor.updata(0);
     })
+    
     //移动端click有300ms延迟
     $scope.on("click",".prev-btn",function(){
         var index = controlmanager.prev();
